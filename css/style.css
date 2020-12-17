@@ -1,0 +1,57 @@
+
+
+
+.grid_wrapper{
+display: grid;
+height: 100vh;
+width: 100vw;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr  ;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+grid-template-areas:
+
+"na he he he he as"
+"na he he he he as"
+"na b1 b1 b2 b2 as"
+"na ar5 ar5 ar6 ar6 as"
+"fo fo fo fo fo fo"
+;
+}
+
+
+#bildf1{
+grid-area: b1;
+background: black;
+    
+}
+#bildf2{
+grid-area: b2;
+background: gray;
+
+}
+#idk3{
+grid-area: ar3;
+background: darkolivegreen;
+
+}
+#idk4{
+grid-area: ar4;
+background: darkslategray;
+}
+
+nav{
+grid-area: na;
+background: red;
+display: flex;
+justify-content: center;
+}
+
+footer{
+grid-area: fo;
+background: cyan;
+}
+
+header{
+grid-area: he;
+background: darkorange;
+
+}
